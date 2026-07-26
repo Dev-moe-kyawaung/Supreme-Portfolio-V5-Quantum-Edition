@@ -1,0 +1,27 @@
+{
+  "name": "Supreme Portfolio V5 - Quantum Edition",
+  "short_name": "Quantum V5",
+  "description": "50,000+ Lines · 50 Complete Sections · 50 Animation Engines · Senior Android Developer",
+  "start_url": "/Supreme-Portfolio-V5-Quantum-Edition/",
+  "display": "standalone",
+  "background_color": "#000212",
+  "theme_color": "#06b6d4",
+  "orientation": "portrait-primary",
+  "categories": ["portfolio", "development", "android", "technology"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/dye5qpwii/image/upload/v1778763535/MKA_25_lbx6fb.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://res.cloudinary.com/dye5qpwii/image/upload/v1778763535/MKA_25_lbx6fb.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
