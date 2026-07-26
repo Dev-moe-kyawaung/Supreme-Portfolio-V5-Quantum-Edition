@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- MAIN URL -->
+  <url>
+    <loc>https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/</loc>
+    <lastmod>2025-01-20T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://res.cloudinary.com/dye5qpwii/image/upload/v1778763535/MKA_25_lbx6fb.webp</image:loc>
+      <image:title>Moe Kyaw Aung - Senior Android Developer - Supreme Portfolio V5 Quantum Edition</image:title>
+      <image:caption>Complete 50 Sections Portfolio - 50,000+ Lines of Code</image:caption>
+    </image:image>
+  </url>
+
+  <!-- SECTION URLs (via anchor links) -->
+  <url>
+    <loc>https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/#section1</loc>
+    <lastmod>2025-01-20T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/#section2</loc>
+    <lastmod>2025-01-20T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/#section3</loc>
+    <lastmod>2025-01-20T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/#section5</loc>
+    <lastmod>2025-01-20T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/#section8</loc>
+    <lastmod>2025-01-20T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/#section12</loc>
+    <lastmod>2025-01-20T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/#section13</loc>
+    <lastmod>2025-01-20T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/#section50</loc>
+    <lastmod>2025-01-20T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- EXTERNAL PROFILE URLs -->
+  <url>
+    <loc>https://github.com/Dev-moe-kyawaung/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.linkedin.com/in/moe-kyaw-aung-2653093a1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://gravatar.com/moekyawaung13721</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://t.me/moekyawaung</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.youtube.com/@UCuTXUguZb4xjeL2nX8WJG</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://bsky.app/profile/moekyawaung96.bsky.social</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://moekyawaung.lovable.app</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+</urlset>
