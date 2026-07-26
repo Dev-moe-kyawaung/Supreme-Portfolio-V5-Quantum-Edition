@@ -1,0 +1,48 @@
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# Build
+dist/
+build/
+out/
+target/
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.production.local
+
+# Logs
+*.log
+*.sqlite
+*.sqlite3
+
+# Temp
+*.tmp
+*.temp
+*.bak
+
+# Verification Templates
+verification/google*.html
+verification/BING*.html
