@@ -1,0 +1,13 @@
+# DuckDuckGo Site Verification
+# ==============================
+
+Site: https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/
+Owner: Moe Kyaw Aung
+Email: moekyawaung@programmer.net
+Verification: YOUR_DUCKDUCKGO_CODE
+
+# DuckDuckGo uses Bing's index for search results.
+# Once verified with Bing Webmaster Tools,
+# DuckDuckGo will automatically index your site.
+
+# Additional submission: https://duckduckgo.com/sitesubmit
