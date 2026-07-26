@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Quantum Error | Supreme Portfolio V5</title>
+  <meta name="robots" content="noindex, follow" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #000212;
+      color: #f1f5f9;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      overflow: hidden;
+    }
+    .container { position: relative; z-index: 1; max-width: 600px; }
+    .error-code {
+      font-family: 'Orbitron', monospace;
+      font-size: 10rem;
+      font-weight: 900;
+      background: linear-gradient(135deg, #06b6d4, #a855f7, #f43f5e, #f59e0b);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+      margin-bottom: 1rem;
+      animation: glow 3s ease-in-out infinite;
+    }
+    @keyframes glow {
+      0%, 100% { filter: drop-shadow(0 0 20px rgba(6,182,212,0.3)); }
+      50% { filter: drop-shadow(0 0 50px rgba(168,85,247,0.5)); }
+    }
+    .title { font-size: 2.5rem; margin-bottom: 0.5rem; font-family: 'Orbitron', monospace; }
+    .text { color: #94a3b8; margin-bottom: 2.5rem; font-size: 1.1rem; line-height: 1.8; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.8rem;
+      padding: 1.2rem 3rem;
+      background: linear-gradient(135deg, #06b6d4, #a855f7, #f43f5e, #f59e0b);
+      border: none;
+      border-radius: 2rem;
+      color: #fff;
+      font-family: 'Orbitron', monospace;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.4s;
+      letter-spacing: 0.05em;
+    }
+    .btn:hover {
+      transform: translateY(-5px) scale(1.02);
+      box-shadow: 0 20px 50px rgba(6,182,212,0.4);
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 2.5rem;
+      padding: 0.4rem 1.5rem;
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 2rem;
+      font-family: 'Orbitron', monospace;
+      font-size: 0.65rem;
+      color: #06b6d4;
+      letter-spacing: 0.2em;
+    }
+    canvas { position: fixed; inset: 0; z-index: 0; }
+  </style>
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <div class="container">
+    <div class="error-code">404</div>
+    <h1 class="title">Quantum Error</h1>
+    <p class="text">
+      The page you're looking for has entered another dimension.<br/>
+      Let's get you back to the Supreme Portfolio.
+    </p>
+    <a href="https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/" class="btn">
+      ⚛ Return to Quantum Base
+    </a>
+    <div class="badge">⚛ SUPREME PORTFOLIO V5 · QUANTUM EDITION</div>
+  </div>
+  <script>
+    const canvas = document.getElementById('particles');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    const particles = Array.from({length: 100}, () => ({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      size: Math.random() * 3 + 1,
+      speedX: (Math.random() - 0.5) * 0.5,
+      speedY: (Math.random() - 0.5) * 0.5,
+      opacity: Math.random() * 0.5 + 0.2
+    }));
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => {
+        p.x += p.speedX;
+        p.y += p.speedY;
+        if (p.x < 0 || p.x > canvas.width || p.y < 0 || p.y > canvas.height) {
+          p.x = Math.random() * canvas.width;
+          p.y = Math.random() * canvas.height;
+        }
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(6, 182, 212, ${p.opacity})`;
+        ctx.fill();
+      });
+      requestAnimationFrame(animate);
+    }
+    animate();
+  </script>
+</body>
+</html>
