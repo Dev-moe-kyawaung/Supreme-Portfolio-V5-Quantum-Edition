@@ -1,0 +1,177 @@
+# ============================================================
+# ROBOTS.TXT - Supreme Portfolio V5 Quantum Edition
+# https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/
+# ============================================================
+
+# ---------------------------
+# GENERAL RULES
+# ---------------------------
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /verification/
+Crawl-delay: 10
+
+# Sitemap locations
+Sitemap: https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/sitemap.xml
+Sitemap: https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/sitemap-index.xml
+
+# ---------------------------
+# GOOGLE
+# ---------------------------
+User-agent: Googlebot
+Allow: /
+Allow: /*.html$
+Allow: /*.xml$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 5
+
+User-agent: Googlebot-Image
+Allow: /
+Disallow: /private/
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+# ---------------------------
+# MICROSOFT BING
+# ---------------------------
+User-agent: Bingbot
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 5
+
+# ---------------------------
+# DUCKDUCKGO
+# ---------------------------
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 10
+
+# ---------------------------
+# YAHOO
+# ---------------------------
+User-agent: Slurp
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 10
+
+# ---------------------------
+# YANDEX
+# ---------------------------
+User-agent: YandexBot
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 10
+
+User-agent: YandexImages
+Allow: /
+Crawl-delay: 10
+
+# ---------------------------
+# BAIDU
+# ---------------------------
+User-agent: Baiduspider
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Crawl-delay: 10
+
+# ---------------------------
+# SOCIAL MEDIA CRAWLERS
+# ---------------------------
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+# ---------------------------
+# CLOUDFLARE
+# ---------------------------
+User-agent: Cloudflare-AMP
+Allow: /
+
+# ---------------------------
+# ARCHIVE & ANALYTICS
+# ---------------------------
+User-agent: ia_archiver
+Allow: /
+
+User-agent: Google-Publisher-Plugin
+Allow: /
+
+# ---------------------------
+# SEO TOOLS
+# ---------------------------
+User-agent: AhrefsBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: SEMrushBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: rogerbot
+Allow: /
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 10
+
+# ---------------------------
+# BLOCKED BOTS
+# ---------------------------
+User-agent: DotBot
+Disallow: /
+
+User-agent: SMTBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: ExtLinksBot
+Disallow: /
+
+# ---------------------------
+# SITEMAP LOCATIONS
+# ---------------------------
+Sitemap: https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/sitemap.xml
+Sitemap: https://dev-moe-kyawaung.github.io/Supreme-Portfolio-V5-Quantum-Edition/sitemap-index.xml
+
+# ============================================================
+# END OF ROBOTS.TXT
+# ============================================================
